@@ -1,0 +1,3 @@
+# setting Page
+
+!["settingpage"](../_static/CameraMaster/setting.png)
