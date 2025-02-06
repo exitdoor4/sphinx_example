@@ -1,5 +1,0 @@
-# Live Page
-
-!["livepage"](../_static/CameraMaster/live.png)
-
-이것은 live page 이미지 이다.
