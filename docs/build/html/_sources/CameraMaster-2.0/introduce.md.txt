@@ -2,7 +2,7 @@
 
 ## CameraMaster-2.0 개요
 CameraMaster-2.0은 Ubuntu 22.04 환경에서 동작하는 고성능 카메라 관리 소프트웨어입니다.
-이 프로그램은 OpenCV와 CUDA를 활용하여 영상 처리 성능을 최적화하며, **GTK4 기반의 직관적인 사용자 인터페이스(UI)**를 제공합니다.
+이 프로그램은 OpenCV와 CUDA를 활용하여 영상 처리 성능을 최적화하며, **GTK4 기반의 직관적인 사용자 인터페이스(UI)** 를 제공합니다.
 특히 NVIDIA Jetson Orin 시리즈와 완벽한 호환성을 가지며, Jetson의 강력한 GPU 가속 기능을 활용하여 실시간 영상 처리 및 AI 기반 영상 분석을 지원합니다.
 
 ## CameraMaster-2.0의 주요 특징
@@ -12,7 +12,7 @@ CameraMaster-2.0은 최신 장기 지원(LTS) 버전인 Ubuntu 22.04 환경에�
 이를 통해 최신 커널 및 드라이버를 활용할 수 있으며, Jetson 플랫폼에서 안정적인 소프트웨어 운영이 가능합니다.
 
 ### OpenCV 및 CUDA 기반 영상 처리
-- **OpenCV (Open Source Computer Vision Library)**를 활용하여 고속 영상 처리 및 필터링 기능을 제공합니다.
+-  **OpenCV (Open Source Computer Vision Library)** 를 활용하여 고속 영상 처리 및 필터링 기능을 제공합니다.
 - CUDA(Compute Unified Device Architecture) 지원을 통해 GPU 가속 기반의 영상 프로세싱 성능을 극대화할 수 있습니다.
 - Jetson Orin의 강력한 AI 엔진과 CUDA 코어를 활용하여 실시간 영상 분석 및 객체 탐지가 가능합니다.
 
