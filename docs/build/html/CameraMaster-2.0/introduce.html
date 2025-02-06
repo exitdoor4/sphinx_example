@@ -58,6 +58,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#id1">CameraMaster-2.0의 주요 특징</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#ubuntu-22-04">Ubuntu 22.04 운영 체제 기반</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#opencv-cuda">OpenCV 및 CUDA 기반 영상 처리</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gstreamer">GStreamer 기반 영상 처리 지원</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#gtk4-ui">GTK4 기반 UI 인터페이스</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#nvidia-jetson-orin">NVIDIA Jetson Orin 시리즈와 호환</a></li>
 </ul>
@@ -107,6 +108,8 @@
 <p>CameraMaster-2.0은 Ubuntu 22.04 환경에서 동작하는 고성능 카메라 관리 소프트웨어입니다.
 이 프로그램은 OpenCV와 CUDA를 활용하여 영상 처리 성능을 최적화하며, <strong>GTK4 기반의 직관적인 사용자 인터페이스(UI)</strong> 를 제공합니다.
 특히 NVIDIA Jetson Orin 시리즈와 완벽한 호환성을 가지며, Jetson의 강력한 GPU 가속 기능을 활용하여 실시간 영상 처리 및 AI 기반 영상 분석을 지원합니다.</p>
+<p>또한, <strong>GStreamer</strong> 기반의 영상 처리 기능을 지원하며, <strong>ISP</strong> (이미지 신호 프로세서) 적용이 가능하며, 요청 시 커스터마이징이 가능합니다.
+이를 통해 사용자는 최적화된 영상 파이프라인을 구성하고, <strong>Jetson</strong> 하드웨어의 성능을 극대화할 수 있습니다.</p>
 </section>
 <section id="id1">
 <h2>CameraMaster-2.0의 주요 특징<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
@@ -123,12 +126,18 @@
 <li><p>Jetson Orin의 강력한 AI 엔진과 CUDA 코어를 활용하여 실시간 영상 분석 및 객체 탐지가 가능합니다.</p></li>
 </ul>
 </section>
+<section id="gstreamer">
+<h3>GStreamer 기반 영상 처리 지원<a class="headerlink" href="#gstreamer" title="Link to this heading"></a></h3>
+<p><strong>GStreamer</strong> 는 멀티미디어 스트리밍을 위한 오픈소스 프레임워크로, <strong>Jetson</strong> 의 하드웨어 가속을 활용한 효율적인 영상 처리 기능을 제공합니다.
+하드웨어 기반 <strong>ISP</strong> (이미지 신호 프로세서) 적용 가능, 이를 통해 노이즈 제거, 화이트 밸런스 조정 등 최적의 영상 품질을 구현할 수 있습니다.
+요청 시 커스터마이징 가능, 특정 요구 사항에 맞게 영상 처리 파이프라인을 조정할 수 있습니다.</p>
+</section>
 <section id="gtk4-ui">
 <h3>GTK4 기반 UI 인터페이스<a class="headerlink" href="#gtk4-ui" title="Link to this heading"></a></h3>
 <ul class="simple">
-<li><p>최신 UI 프레임워크인 GTK4를 기반으로 설계되어, 반응성이 뛰어나고 직관적인 사용자 경험(UX)을 제공합니다.</p></li>
-<li><p>사용자가 손쉽게 영상 재생, 설정 변경, 카메라 관리 등을 수행할 수 있도록 직관적인 UI 구성이 적용되었습니다.</p></li>
-<li><p>다중 카메라 지원 및 사용자 맞춤형 영상 설정 기능을 제공합니다.</p></li>
+<li><p>최신 UI 프레임워크인 <strong>GTK4</strong> 를 기반으로 설계되어, 반응성이 뛰어나고 직관적인 사용자 경험(UX)을 제공합니다.</p></li>
+<li><p>사용자가 손쉽게 영상 재생, 설정 변경, 카메라 관리 등을 수행할 수 있도록 <strong>직관적인 UI</strong> 구성이 적용되었습니다.</p></li>
+<li><p><strong>다중 카메라 지원</strong> 및 사용자 맞춤형 영상 설정 기능을 제공합니다.</p></li>
 </ul>
 </section>
 <section id="nvidia-jetson-orin">

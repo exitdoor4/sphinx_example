@@ -19,9 +19,7 @@ release = '1.0.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-html_baseurl = 'https://pjt3591oo.github.io/sphinx_example/'
-
-extensions = ['myst_parser','sphinx.ext.githubpages']
+extensions = ['myst_parser']
 
 source_suffix = {
     '.rst': 'restructuredtext',
