@@ -1,6 +1,6 @@
 # Introduce
 
-![capturepage](../_static/DPS/a1.png)
+![capturepage](../_static/DPS/dps-main.png)
 
 **DPS Software**는 **윈도우 10** 및 **윈도우 11**에서 실행 가능한 소프트웨어로, **WinUI3**를 사용하여 동적인 그래픽 사용자 인터페이스를 제공합니다. 
 
